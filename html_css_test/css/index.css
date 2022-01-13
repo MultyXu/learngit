@@ -1,8 +1,37 @@
-p {
-    color: red;
+/* element selector */
+p { 
+    color: red; 
+    text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-size: 200%;
     border: 2px solid powderblue;
     padding: 20px;
     margin: 30px;
+}
+
+/* id sector */
+#intro {
+    background-color:darkgrey;
+}
+
+/* class selector */
+.special {
+    color:chartreuse;
+    font-size: 150;
+
+}
+
+/* universal selector */
+* {
+    text-align: center;
+}
+
+/* grouping selector */
+h1, #responsive, a { /* some attibute, segrouping for resonsive doesn't work */
+    color:blue;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 30px;
+    border: 4px solid green;
+    padding: 30px;
+    margin: 20px;
 }
