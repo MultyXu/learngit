@@ -1,7 +1,7 @@
 # learngit
 
-create new line
+This learngit repoe is mainly used for familarize with git. But, it will also be used as a test playground for my other projects and study material.   
 
-another new line for fetch
+---
 
-## this is markdown grammar
+Things will be messy here, and I will try to make it organize later. 
