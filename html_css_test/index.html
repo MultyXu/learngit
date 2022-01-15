@@ -10,8 +10,11 @@
         <meta name="description" content="some random html" />
         <title>html test page</title>
 
-        <!-- link can connect external sources. This links to css style-->
-        <link rel="stylesheet" type="text/css" href="css/index.css"
+        <!-- link can connect external sources. This links to css style -->
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+
+        <!-- use bootstrap icons -->
+        <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
     </head>
 
     <body>
@@ -21,7 +24,7 @@
             <p>And this is the paragraph of the page</p>
             <a href="http://www.google.com">with a link to google</a>
             <p>And an image in the link</p>
-            <img src="img/fig_1.png" alt="A screenshot of my desktop">
+            <img src="img/fig_1.png" alt="A screenshot of my desktop" style="width: 80%;">
             <p>Now we have the four basic elements of html.</p>
             <hr>
         </div>
@@ -33,12 +36,16 @@
 
         <div id="responsive">
             <p>A responsive grid-view often has 12 columns, and has a total width of 100%, and will shrink and expand as you resize the browser window.</p>
+            <img src="img/box_model.png" alt="box modle explaination">
         </div>
 
         <p class="special">This paragraph is special</p>
 
         <div id="table">
-            <table>
+            <!--
+                This div is for table, th for table head, td for table content, tr for table row.
+            -->
+            <table class="first_table" style="overflow: auto;">
                 <tr>
                     <th>person\information</th>
                     <th>Name</th>
@@ -55,10 +62,40 @@
                 </tr>
                 <tr>
                     <th>Person 2</th>
-                    
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
             </table>
         </div>
-    
+        
+        <div class="icons">
+            <i class="glyphicon glyphicon-cloud"></i>     
+        </div>
+
+        <div class="list_example">
+            <!--
+                lists example, ul for unorderd, ol for orderd list (in default with number)
+                why the list in the middle??
+            -->
+            <ul>
+                <li>first element</li>
+                <li>second element</li>
+                <li>third element</li>
+            </ul>
+            <ol>
+                <li>milk</li>
+                <li>tea</li>
+                <li>juice</li>
+            </ol>
+            <!-- discription list, discription list title, discription list discription -->
+            <dl>
+                <dt>Tea</dt>
+                <dd>hot and green</dd>
+                <dt>juice</dt>
+                <dd>sweet and orange</dd>
+            </dl>
+        </div>
     </body>
 </html>
